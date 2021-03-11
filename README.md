@@ -1,45 +1,66 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Discover Penwith - Milestone 2 Project 
 
-Welcome jakelashbrook,
+link for live deployed site here 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+screenshot of site here 
 
-## Gitpod Reminders
+## Site Summary and Deployment Plan
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This has without a doubt been my most challenging project yet- adding Javascript to my language vocabulary has been
+an uphill struggle at points. But once I broke out of Imposter Syndrome mentality, This has without a doubt become my 
+most enjoyable project creation yet.
 
-`python3 -m http.server`
+Due to my history working within the Hospitality sector, I naturally gravitate towards creating websites within that
+sector because i guess it's become a comfort zone area for me. At first I had decided to create a restaurant/cafe 
+website for my employers- and i did! Got to a point of completion- and decided it wasn't enough, it didn't fit with
+what I wanted to create for my assessment crriteria. So I went back to the drawing board and debated what was pheasable
+and what kind of API's I wanted to use. I was actually surfing a facebook group i'm apart of when the idea for 'Discover
+Penwith' dawned on me. 
 
-A blue button should appear to click: *Make Public*,
+Cornwall has become one of the most popular tourist destinations in the UK, even more so since Staycationing became the
+new trend after the Pandemic crisis. Pondering this i decided there wasn't a specific enough guide on Penwith, my area of
+Cornwall. For those that don't know what Penwith is- there's two answers! To the English, it's a district of the county
+of Cornwall. To the Cornish, it's a county of the forgotten nation of Cornwall. There is simply so much to see and do here, I decided to make a guide to give people ideas of places to visit, things to
+do and awesome places to eat. And so, the Discover Penwith site is born.  
 
-Another blue button should appear to click: *Open Browser*.
+To start with it will be a guide, offering links and ideas as an initial MVP site. But long term, I want it to embrace
+the local community and become a space for people to interact over local events, suggest things or places to add to the
+site content, and help grow the local economy back from the Pandemic and Brexit crisis.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience (UX)
 
-A blue button should appear to click: *Make Public*,
+## User Stories
 
-Another blue button should appear to click: *Open Browser*.
+- First Time User Goals:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Frequent User Goals:
 
-## Updates Since The Instructional Video
+- Returning User Goals: 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design  
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- **Typography:**  
+The site has uses Google Fonts to style the Typorgraphy. The main font used is Open Sans Condensed, with Lato and
+Caveat used as secondary fonts.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- **Colour Scheme:**  
+For the colour scheme i decided to use the colours of the Cornish Flag and the ceromonial colours. The main colours
+being black and white- reflecting the flag. And then a sandy/yellow colour for hover effects/links to add a 
+distinctive finish to the site.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- **Images:**  
+All the images used on the site are either taken by myself, my partner or our local community facebook group with
+the permission of the owners for use in this project. There are a lot of images being used on this because when it 
+comes to travel a picture really does "speak a thousand words".
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Wireframes  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- **The Discover Page Wireframe:**  
+- **The Explore Page Wireframe:**
+- **The Join In Page Wireframe:** 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
+
+

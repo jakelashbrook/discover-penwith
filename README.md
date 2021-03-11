@@ -29,13 +29,23 @@ site content, and help grow the local economy back from the Pandemic and Brexit 
 
 # User Experience (UX)
 
-## User Stories
+## User Experience Stories
 
-- First Time User Goals:
+- First Time User Goals:  
+  - a. As a First Time User, I want to be able to easily navigate the site.
+  - b. As a First Time User, I want to have access to information on destinations without being drowned in information 
+  that i'm not looking for.
+  - c. As a First Time User, I want tips or ideas on different places to visit whilst visiting Cornwall.
 
-- Frequent User Goals:
+- Frequent User Goals:  
+  - a. As a Frequent User, I want to be able to access the sites Social Media to see if there is any extra 
+  information or news available on those channels.
+  - b. As a Frequent User, I want to be able to easily navigate to external sources of supporting information.
 
-- Returning User Goals: 
+- Returning User Goals:  
+  - a. As a Returning User, I want to be able to get involved with making suggestions for places to visit and
+  extra site content.
+  
 
 ## Design  
 

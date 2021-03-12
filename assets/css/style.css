@@ -96,3 +96,34 @@ a:hover {
    border-radius: 5%;
    box-shadow: 2px 2px 3px #fafafa;
 }
+
+
+
+/*            FOOTER RULES                    */
+footer {
+  background-color: black;
+  color: #fafafa;
+}
+footer .sm-links {
+  list-style-type: none;
+
+}
+
+.sm-links li {
+  display: inline-block;
+}
+
+.sm-links li a {
+  text-decoration: none;
+  color: #fafafa;
+  text-align: center;
+  font-size: 20px;
+}
+
+.sm-links li a:hover {
+  text-decoration: none;
+  color: #edd587;
+  text-align: center;
+}
+ 
+

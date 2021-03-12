@@ -22,8 +22,27 @@
   color: #fafafa;
 } 
 
+.black {
+  background-color: black;
+  color: #fafafa;
+}
+
+.black:hover {
+  background-color:#edd587;
+  color: black;
+  border: 0.75px solid black;
+  font-weight: 700;
+}
+
 .sandy-txt {
   color: #edd587;
+}
+
+.white-txt {
+  color: #fafafa;
+  font-weight: 700;
+  text-shadow: 1px 1px #edd587;
+  letter-spacing: 4px;
 }
 
 /*                BUTTON  AND LINK RULES        */
@@ -104,23 +123,24 @@ footer {
   background-color: black;
   color: #fafafa;
 }
-footer .sm-links {
+footer ul {
   list-style-type: none;
 
 }
 
-.sm-links li {
+footer ul li {
   display: inline-block;
+  color: #fafafa;
 }
 
-.sm-links li a {
+footer ul li a {
   text-decoration: none;
   color: #fafafa;
   text-align: center;
   font-size: 20px;
 }
 
-.sm-links li a:hover {
+footer ul li a:hover {
   text-decoration: none;
   color: #edd587;
   text-align: center;

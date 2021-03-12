@@ -1,0 +1,29 @@
+
+
+
+
+
+/*       COLOUR RULES FOR SITE         */
+.black-bg {
+  background-color: black;
+  color: #fafafa;
+} 
+
+.sandy-txt {
+  color: #edd587;
+}
+
+/*            NAVIGATION               */
+#navigation {
+   width: 100vw;
+   word-spacing: 8px;
+}
+
+/* Changes the colour of the active link in the navbar  */
+.navbar-dark .navbar-nav .active>.nav-link  {
+ color: #edd587;
+}
+/* Changes the colour of the link when hovered over  */
+.navbar-dark .navbar-nav .nav-link:hover {
+ color: #edd587;
+}

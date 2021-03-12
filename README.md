@@ -11,14 +11,14 @@ an uphill struggle at points. But once I broke out of Imposter Syndrome mentalit
 most enjoyable project creation yet.
 
 Due to my history working within the Hospitality sector, I naturally gravitate towards creating websites within that
-sector because i guess it's become a comfort zone area for me. At first I had decided to create a restaurant/cafe 
-website for my employers- and i did! Got to a point of completion- and decided it wasn't enough, it didn't fit with
-what I wanted to create for my assessment crriteria. So I went back to the drawing board and debated what was pheasable
-and what kind of API's I wanted to use. I was actually surfing a facebook group i'm apart of when the idea for 'Discover
+sector because I guess it's become a comfort zone area for me. At first I had decided to create a restaurant/cafe 
+website for my employers- and I did! Got to a point of completion- and decided it wasn't enough, it didn't fit with
+what I wanted to create for my assessment criteria. So I went back to the drawing board and debated what was pheasable
+and what kind of API's I wanted to use. I was actually surfing a facebook group I'm apart of when the idea for 'Discover
 Penwith' dawned on me. 
 
 Cornwall has become one of the most popular tourist destinations in the UK, even more so since Staycationing became the
-new trend after the Pandemic crisis. Pondering this i decided there wasn't a specific enough guide on Penwith, my area of
+new trend after the Pandemic crisis. Pondering this I decided there wasn't a specific enough guide on Penwith, my area of
 Cornwall. For those that don't know what Penwith is- there's two answers! To the English, it's a district of the county
 of Cornwall. To the Cornish, it's a county of the forgotten nation of Cornwall. There is simply so much to see and do here, I decided to make a guide to give people ideas of places to visit, things to
 do and awesome places to eat. And so, the Discover Penwith site is born.  
@@ -66,9 +66,13 @@ comes to travel a picture really does "speak a thousand words".
 
 ## Wireframes  
 
-- **The Discover Page Wireframe:**  
-- **The Explore Page Wireframe:**
-- **The Join In Page Wireframe:** 
+- **The Discover Penwith Desktop Wireframes:**  
+[PDF of Desktop Wireframes](/pdf/discover-penwith-wireframes.pdf)  
+
+  Please see the attached PDF for a written summary of the desktop wireframes for this project.  
+
+- **The Mobile Wireframe:**
+
 
 
 

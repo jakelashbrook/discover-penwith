@@ -13,6 +13,37 @@
   color: #edd587;
 }
 
+/*                BUTTON  AND LINK RULES        */
+a {
+  color: #edd587;
+}
+
+a:hover {
+  color: #fafafa;
+}
+
+#day-trip-cta {
+  color: black;
+  font-weight: 600;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 3px black;
+}
+
+#day-trip-cta:hover {
+  background-color: black;
+  color: #fafafa;
+  border: 1px solid #fafafa;
+  font-weight: 700;
+}
+
+.btn .btn-default {
+  background-color: #fafafa;
+  color: black;
+  
+}
+
+
+
 /*            NAVIGATION               */
 #navigation {
    width: 100vw;

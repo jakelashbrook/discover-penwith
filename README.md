@@ -84,7 +84,51 @@ comes to travel a picture really does "speak a thousand words".
 
 ## Languages Used:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+
+## Frameworks, Libraries and Programs Used:
+
+1. [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/):
+  - Bootstrap was used to speedily build the layout of the website and to optimise the responsiveness of the
+    website across all devices.  
+
+2. [Google Fonts](https://fonts.google.com/):  
+  - The Google Fonts CDN is used to import styled typography to the site using the Open Sans Condensed, Lato and the
+  Caveat fonts.
+
+3. [Font Awesome](https://fontawesome.com/):
+  - Font Awesome is used to add icons to some of the links used on the site to make them stand out more to users.
+
+4. [Git](https://git-scm.com/):
+  - Git is used for version control of the website.
+
+5. [Gitpod](https://www.gitpod.io/):
+  - Gitpod was used as the Internet Development Environment for the final draft of the website.
+
+6. [repl.it](https://repl.it/):
+  - Repl.it was used during the draft stages of the site creation as it's completely free to use which makes it
+    brilliant to use when playing around with different ideas still.
+
+7. [Github](https://github.com/):
+  - Github is used to store the committed repositories from Git/Gitpod.  
+
+8. [Google Chrome](https://www.google.com/intl/en_uk/chrome/):
+  - Google Chrome was used throughout the Development period, with the Google Chrome Dev environment being crucial
+    to assessing things that need fixing or changing before taking action.
+
+9. [EZGIF.com](https://ezgif.com/):
+  - ezgif.com has been used to convert pictures from JPG to WEBP format so that they load faster, and the browser 
+    processes the website faster with smaller file sizes to load.  
+
+10. [Minify Code](http://minifycode.com/):  
+  - Minify Code has been used to minify the CSS file for optimised website loading, and also to beautify the code so
+    that it's easier to read through.
+
+11. [Am I Responsive?](http://ami.responsivedesign.is/):  
+   - Used to provide the screenshot of Discover Penwith across multiple devices at the top of this README.md file.
+
+12. [Responsinator](http://www.responsinator.com/): 
+   - Used to check how responsive the site is across multiple device types.
 
 
 

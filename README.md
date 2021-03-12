@@ -71,7 +71,20 @@ comes to travel a picture really does "speak a thousand words".
 
   Please see the attached PDF for a written summary of the desktop wireframes for this project.  
 
-- **The Mobile Wireframe:**
+- **The Mobile Wireframe:** 
+
+## Features  
+- The website will be responsive across devices, built mobile first using bootstrap.
+- The site will be easy to navigate and feature fixed navigation on all devices.
+- The site will have a fixed 'back to the top button' to prevent users from having to endlessly scroll back to the top.
+- Social Media Links will be featured in the Footer across all pages.
+- The site will feature numerous CTA buttons for added ease of navigation. 
+
+# Technologies Used 
+
+## Languages Used:
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 

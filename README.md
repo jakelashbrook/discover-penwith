@@ -130,7 +130,24 @@ comes to travel a picture really does "speak a thousand words".
 12. [Responsinator](http://www.responsinator.com/): 
      - Used to check how responsive the site is across multiple device types.
 
+# Testing 
 
+## Validation 
+
+The W3C Markup Validator and The W3C CSS Validator Services were used to validate every 
+page of the project to ensure there were no syntax errors in the project:
+
+- [W3 Markup Validator Results]()
+
+- [W3C CSS Validator Results]() 
+
+- [Jshint Results]()
+
+## Testing User Stories from the UX Section 
+
+## UX Survey 
+
+## Jasmine 
 
 
 

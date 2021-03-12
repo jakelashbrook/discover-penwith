@@ -1,8 +1,20 @@
 /*              GOOGLE FONTS IMPORT              */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 
+/*                      QUICK FONT CLASSES            */
+.caveat {
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
 
+.open-sans {
+  font-family: "Open Sans Condensed", sans-serif;
+}
 
+.lato {
+  font-family: "Lato", sans-serif;
+}
 
 /*       COLOUR RULES FOR SITE  - backgrounds and font       */
 .black-bg {

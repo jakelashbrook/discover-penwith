@@ -89,7 +89,7 @@ comes to travel a picture really does "speak a thousand words".
 
 ## Frameworks, Libraries and Programs Used:
 
-1. [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/):
+1. [Bootstrap 4.5.2](https://getbootstrap.com/docs/4.0/getting-started/introduction/):
     - Bootstrap was used to speedily build the layout of the website and to optimise the responsiveness of the
     website across all devices.  
 
@@ -114,16 +114,16 @@ comes to travel a picture really does "speak a thousand words".
     - Github is used to store the committed repositories from Git/Gitpod.  
 
 8. [Google Chrome](https://www.google.com/intl/en_uk/chrome/):
-    - Google Chrome was used throughout the Development period, with the Google Chrome Dev environment being crucial
-    to assessing things that need fixing or changing before taking action.
+    - Google Chrome was used throughout the Development period, with the Google Chrome Dev Tools 
+    environment being crucial to assessing things that need fixing or changing before taking action.
 
 9. [EZGIF.com](https://ezgif.com/):
-    - ezgif.com has been used to convert pictures from JPG to WEBP format so that they load faster, and the browser 
-    processes the website faster with smaller file sizes to load.  
+    - ezgif.com has been used to convert some of the featured images from JPG to WEBP format so that they load faster, 
+    and the browser processes the website faster with smaller file sizes to load.  
 
 10. [Minify Code](http://minifycode.com/):  
-    - Minify Code has been used to minify the CSS file for optimised website loading, and also to beautify the code so
-    that it's easier to read through.
+    - Minify Code has been used to minify the CSS file for optimised website loading, and also to beautify the HTML, CSS 
+    and Javascript code so that it's easier to read through.
 
 11. [Am I Responsive?](http://ami.responsivedesign.is/):  
      - Used to provide the screenshot of Discover Penwith across multiple devices at the top of this README.md file.
@@ -147,11 +147,14 @@ comes to travel a picture really does "speak a thousand words".
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every 
 page of the project to ensure there were no syntax errors in the project:
 
-- [W3 Markup Validator Results]()
+- [W3 Markup Validator Results]()  
+  -
 
-- [W3C CSS Validator Results]() 
+- [W3C CSS Validator Results]()  
+  -
 
-- [Jshint Results]()
+- [Esprima Validator Results]()
+   -
 
 ## Testing User Stories from the UX Section 
 

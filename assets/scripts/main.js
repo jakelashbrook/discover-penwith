@@ -1,5 +1,5 @@
 $(document).ready(function() {
- 
+    
 // Shows the St Ives Town Information 
   $('#si-btn-show').click(function() {
     // Hides Penzance and Hayle Columns
@@ -18,7 +18,7 @@ $(document).ready(function() {
     // Displays the close content button
     $('#si-btn-hide').removeClass('d-none');
   });
-    
+
     // Function for closing the content area
   $('#si-btn-hide').click(function() {
     // Hides the St Ives Div after button is clicked
@@ -57,6 +57,7 @@ $(document).ready(function() {
     $('#hayle-btn-hide').removeClass('d-none');
   });
 
+
    // Function for closing the content area
   $('#hayle-btn-hide').click(function() {
     // Hides the Hayle Info Div after button is clicked
@@ -75,6 +76,7 @@ $(document).ready(function() {
     // And displays the show more button again 
     $('#hayle-btn-show').removeClass('d-none'); 
   });
+
 
     // Shows the Penzance Town Information 
   $('#pz-btn-show').click(function() {
@@ -113,5 +115,6 @@ $(document).ready(function() {
     // And displays the show more button again 
     $('#pz-btn-show').removeClass('d-none'); 
   });
+
 });
 

@@ -51,7 +51,7 @@
             <h3 class="card-title">ST. IVES</h3>
             <button id="si-btn-show" class="btn btn-default black m-3" onclick="function();">More..</button>
             <button id="si-btn-hide" class="btn btn-default black d-none close-btn-towns" 
-            title="Back to Homepage" onclick="function();">X</button>
+            title="Back to Homepage" onclick="function();;">X</button>
          </div>
         <!-- HAYLE CARD  -->
         <div class="card" id="hayle">
@@ -194,13 +194,98 @@
 	</div>
 </div>
 
-    <!--               The Footer Area                   -->
+<!--               Top 5 Day Trips                   -->
+    <!--  The Bootstrap Carousel Component has been utilised and edited to display the Top 5 Day Trips-->
+    <!-- The top-5 id anchors to the featured hero image CTA-->
+<div class="jumbotron-fluid text-center dark-bg" id="top-5">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+            <!-- The carousel indicators have been styled with CSS to match the site colour theme-->
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+                <!-- Carousel Title class created for each slide to make the top 5 section look crisper-->
+				<div class="carousel-title">
+					<h2 class="black-bg"># TOP 5 DAY TRIPS</h2>
+				</div>
+				<img class="d-block w-100 slider-img" src="assets/images/top5/isles-of-scilly.jpg" alt="Take a day trip from Penzance to The Isles of Scilly via ferry or SkyBus">
+				<div class="carousel-caption black-bg">
+					<h5 class="text-uppercase"><span class="sandy-txt">#1</span> The Isles of Scilly</h5>
+					<p class="d-none d-md-block">You can take a day trip to the Isles of Scilly from Penzance or Newquay. From Penzance you can take the ferry or the SkyBus from the heliport. From Land's End or Newquay you can fly from the Airport.</p>
+					<p>You can <a href="https://www.islesofscilly-travel.co.uk/book/?gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTKQSIsgKqa6PoODj6KvLUm3_ys9LdxxY0mXPB-EVeKjFftY86lsmtQaAmPPEALw_wcB" target="_blank">click here</a> to book your trip.</p>
+                </div>
+                <!-- Each slide provides links within the carousel-caption to get more information on the destinations-->
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-title">
+					<h2 class="black-bg"># TOP 5 DAY TRIPS</h2>
+				</div>
+				<img class="d-block w-100 slider-img" src="assets/images/top5/st-mikes-mount.jpg" alt="Take a stroll over to St Michaels Mount at low tide.">
+				<div class="carousel-caption black-bg">
+					<h5 class="text-uppercase"><span class="sandy-txt">#2</span> St Michaels Mount</h5>
+					<p class="d-none d-md-block">St Michaels Mount is one of the top places to spend your day imagining what life in Cornwall was like hundreds of years ago. The Island only has a tiny population still resident there, and is mainly used as tourist hotspot for visitors to enjoy roaming around the castle or the little quaint town with shops and cafe that can be explored.</p>
+					<p>The Island is usually shut in the Winter, but when its open you can visit at lowtide <a href="https://www.stmichaelsmount.co.uk/plan-your-visit/causeway-opening-times" target="_blank" title="See the Causeway Times">via foot</a>, or book your tickets <a href="https://www.stmichaelsmount.co.uk/plan-your-visit/opening-days-times" target="_blank" title="Book your tickets online">here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-title">
+					<h2 class="black-bg"># TOP 5 DAY TRIPS</h2>
+				</div>
+				<img class="d-block w-100 slider-img" src="assets/images/top5/tehidy-woods.jpg" alt="Go for an adventurous day out and explore Cornish nature at Tehidy Woods">
+				<div class="carousel-caption black-bg">
+					<h5 class="text-uppercase"><span class="sandy-txt">#3</span> Tehidy Woods</h5>
+					<p class="d-none d-md-block">Tehidy Woods is a former estate of one the four most powerful Cornish families- The Bassetts. The estate is now owner by Cornwall County Council and is a favourite place for many locals to spend a free family day out. You can go along and feed the squirrels, or the ducks. Pick one of many different woodland trails to follow, climb some trees and observe the beauty of the local cornish habitats. There's even a cafe you can stop at to recoup.</p>
+					<p>For more information and help navigating your trip <a href="https://www.visitcornwall.com/things-to-do/walking/west-cornwall/camborne/tehidy-country-park" target="_blank">click here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-title">
+					<h2 class="black-bg"># TOP 5 DAY TRIPS</h2>
+				</div>
+				<img class="d-block w-100 slider-img" src="assets/images/top5/si-paddleboarding.jpg" alt="Spend the day in St Ives Stand Up Paddleboarding, Taking surf lessons or going on a boat trip.">
+				<div class="carousel-caption black-bg">
+					<h5 class="text-uppercase"><span class="sandy-txt">#4</span> St Ives Watersports</h5>
+					<p class="d-none d-md-block">St Ives, Cornwall is arguably one of the most popular seaside resorts in the UK- it's actually been voted the most popular destination more than once. And whilst most tourists flock here for the art scene, or the relaxing beauty and gorgeous Cornish weather- St Ives has also become a Surfers and Watersports Mecca.</p>
+					<p>If you're into watersports and want to book some action packed activities <a href="https://www.stivessurfschool.co.uk/" target="_blank"> click here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-title">
+					<h2 class="black-bg"># TOP 5 DAY TRIPS</h2>
+				</div>
+				<img class="d-block w-100 slider-img" src="assets/images/top5/eden-project.jpg" alt="Visit Lands End for the day and tick it off your bucket list itinerary">
+				<div class="carousel-caption black-bg">
+					<h5 class="text-uppercase"><span class="sandy-txt">#5</span> The Eden Project</h5>
+					<p class="d-none d-md-block">The Eden Project has become one of the most famous attractions in Cornwall, being a rather unique installation in the UK it has a lot of people intrigued and offers lots of activities for visitors to learn more about their environment and different ecosystems. Although the Eden Project isn't situated in Penwith, it's rather easy to plan a day trip to whatever your transport may be.</p>
+					<p>To find out more about booking tickets and transport options <a href="https://www.edenproject.com/visit" target="_blank"> click here.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</div>
+
+<!--               The Footer Area                   -->
     <footer>
 	<div class="row">
 		<div class="col-md-4 d-xs-none d-md-block"></div>
 		<div class="col-sm-12 col-md-4 text-center">
+            <h3 class="sandy-txt mt-3">Follow us on..</h3>
 			<ul class="sm-links text-center">
-				<h3 class="sandy-txt mt-3">Follow us on..</h3>
 				<li><a href="https://www.facebook.com/" target="_blank" class="m-1" title="Facebook"><i class="fab fa-facebook-square"></i></a>
 				</li>
 				<li><a href="https://twitter.com/" target="_blank" class="m-1" title="Twitter"><i class="fab fa-twitter-square"></i></a>
@@ -222,6 +307,9 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--           Main.js File Link        -->
+    <script src="assets/scripts/main.js" type="text/javascript"></script>
 
     <!--       FONT AWESOME CDN LINK        -->
     <script src="https://kit.fontawesome.com/d7aebf5372.js" crossorigin="anonymous" defer></script>

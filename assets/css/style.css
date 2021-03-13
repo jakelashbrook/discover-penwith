@@ -236,3 +236,10 @@ footer {
    border-radius: 5%;
    box-shadow: 2px 2px 3px #fafafa;
 }
+
+/*               JOIN IN PAGE                     */
+/* navigation rules for join-in page */
+#navigation-join-in {
+   width: 100vw;
+   word-spacing: 8px; 
+}

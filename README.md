@@ -85,6 +85,7 @@ comes to travel a picture really does "speak a thousand words".
 ## Languages Used:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+- [Javascrript](https://www.javascript.com/)
 
 ## Frameworks, Libraries and Programs Used:
 
@@ -128,7 +129,16 @@ comes to travel a picture really does "speak a thousand words".
      - Used to provide the screenshot of Discover Penwith across multiple devices at the top of this README.md file.
 
 12. [Responsinator](http://www.responsinator.com/): 
-     - Used to check how responsive the site is across multiple device types.
+     - Used to check how responsive the site is across multiple device types.  
+
+13. [jQuery](https://jquery.com/):  
+     - jQuery is used to speed up the process of writing Javascript code, by offering a much simpler syntax enabling
+     the user to write Javascript based code much faster. A large part of the core functionality of the site comes
+     from utilising jQuery. The Town Information sections are fully operated using jQuery code. 
+
+14. [Facebook](https://www.facebook.com/):    
+     - Facebook has been used to supply the images across this site, the majority from my personal profile and others
+     have been sourced from the local facebook group I participate in with consent from the owners.
 
 # Testing 
 

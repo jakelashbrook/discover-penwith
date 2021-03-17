@@ -4,7 +4,7 @@ link for live deployed site here
 
 screenshot of site here 
 
-## Site Summary and Deployment Plan
+## Site Summary and Development Plan
 
 This has without a doubt been my most challenging project yet- adding Javascript to my language vocabulary has been
 an uphill struggle at points. But once I broke out of Imposter Syndrome mentality, This has without a doubt become my 
@@ -51,11 +51,15 @@ site content, and help grow the local economy back from the Pandemic and Brexit 
 
 - **Typography:**  
 The site has uses Google Fonts to style the Typorgraphy. The main font used is Open Sans Condensed, with Lato and
-Caveat used as secondary fonts.
+Caveat used as secondary fonts. 
+
+- **Logo:**  
+The logo is a simple text based one created within the Internet Development Environment using the Google Font Caveat and the
+CSS text shadowing effect using the same colours from the websites designated Colour Scheme.
 
 
 - **Colour Scheme:**  
-For the colour scheme i decided to use the colours of the Cornish Flag and the ceromonial colours. The main colours
+For the colour scheme I decided to use the colours of the Cornish Flag and the ceromonial colours. The main colours
 being black and white- reflecting the flag. And then a sandy/yellow colour for hover effects/links to add a 
 distinctive finish to the site.
 
@@ -64,7 +68,14 @@ All the images used on the site are either taken by myself, my partner or our lo
 the permission of the owners for use in this project. There are a lot of images being used on this because when it 
 comes to travel a picture really does "speak a thousand words".
 
+- **Site Appearance:**
+There is a clear and crisp repetition of colours and structured layout throughout the site so that Users are quickly and 
+intuitively used to the sites design.
+
 ## Wireframes  
+
+I decided to sketch my wireframes by hand because i'm much more confident with designing them this way- and in all honesty it gives
+my eyes some extra screen free time to recover and recoup slightly. You can find links to my original wireframes below:
 
 - **The Discover Penwith Desktop Wireframes:**  
 [PDF of Desktop Wireframes](/pdf/discover-penwith-wireframes.pdf)  
@@ -73,12 +84,17 @@ comes to travel a picture really does "speak a thousand words".
 
 - **The Mobile Wireframe:** 
 
-## Features  
-- The website will be responsive across devices, built mobile first using bootstrap.
-- The site will be easy to navigate and feature fixed navigation on all devices.
-- The site will have a fixed 'back to the top button' to prevent users from having to endlessly scroll back to the top.
-- Social Media Links will be featured in the Footer across all pages.
-- The site will feature numerous CTA buttons for added ease of navigation. 
+## Site Evolution and Page Specific Features
+
+Throughout the design process some ideas and factors of the website have changed, for clarity I have decided to write an evaluation 
+of the changes made to each page here. Some aspects of the site such as the Navigation and Footer are available across all pages, and 
+are identical in style and functionality.
+
+- **The Discover Page:**
+
+- **The Explore Page:**
+
+- **The Join In Page:**
 
 # Technologies Used 
 

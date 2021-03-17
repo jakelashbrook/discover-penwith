@@ -38,7 +38,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #fafafa; 
+  background: #edd587; 
   border: 1px solid black;
 }
 

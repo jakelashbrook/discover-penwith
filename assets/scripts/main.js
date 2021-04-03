@@ -123,11 +123,11 @@ $(document).ready(function() {
 //Get the back to top button
 let mybutton = document.getElementById("back-to-top-btn");
 
-// When the user scrolls down 60px from the top of the document, show the button
+// When the user scrolls down 120px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 // button appears after page has been scrolled
 function scrollFunction() {
-  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 240 || document.documentElement.scrollTop > 240) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";

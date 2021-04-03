@@ -287,6 +287,25 @@ If you would like to read some more about creating local clones, you can [click 
 
 # Credits 
 
+## Code
+- [Bootstrap](https://getbootstrap.com/): 
+A big credit to bootstrap for enabling me to build faster using it's framework components/rules and then using personalised CSS rules to edit and restyle 
+the website.
+
+- [W3C Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top):
+This guide to make a 'Back to the top' button was used build my back to the top button.
+
+- [Code Institure](https://codeinstitute.net/): For all the lessons i've learnt so far to enable me to code to this level.
+
+- [Google Developer Docs](https://developers.google.com/maps/documentation/javascript/overview): All of the Google API Documentation 
+for helping me learn to use the API's and create ideas for better concepts within my app by also including a street view of my markers
+which wasn't part of my original plan for the site. 
+
+## Content 
+Most of the pictures and written content are my own. However, some photographs are provided from friends and family members. All of the 
+towns information on the homepage is from Wikipedia. All of the photos used within the Info Windows on the map are externally sourced, 
+all written information on the info windows is typed myself. You can view the PDF document i made whilst planning the Info Window content
+[here](/pdf/info-window-planning.pdf) to see a library of the written content and external image links used.
 
 
 

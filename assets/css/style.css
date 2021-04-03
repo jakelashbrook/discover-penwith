@@ -316,6 +316,21 @@ footer {
    box-shadow: 2px 2px 3px #fafafa;
 }
 
+/* Call To Action button on feature text overlay */
+#join-in-cta {
+  color: black;
+  font-weight: 600;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 3px black;
+}
+
+#join-in-cta:hover {
+  background-color: #edd587;
+  color: #fafafa;
+  border: 1px solid #fafafa;
+  font-weight: 700;
+}
+
 /*          The # JOIN IN contact form              */
 #contact-form {
   margin: 0;

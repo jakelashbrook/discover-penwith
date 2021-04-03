@@ -101,7 +101,7 @@ are identical in style and functionality.
 ## Languages Used:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-- [Javascrript](https://www.javascript.com/)
+- [Javascript](https://www.javascript.com/)
 
 ## Frameworks, Libraries and Programs Used:
 
@@ -160,9 +160,14 @@ are identical in style and functionality.
     - I decided to build in an ongoing survey for users to contribute their User Experience Stories to be used for future
     reviews and possible changes to the site based on the suggestions made.
 
-16. [Monzo](https://monzo.me/jakelashbrook6):
+16. [Monzo Payment Links](https://monzo.me/jakelashbrook6):
     - I also decided to add a donation button to the #SUPPORT section because i was intrigued with the monzo payment link technology.
     This is an area i will likely build on in the future development of the app by incorporating Stripe and/or Paypal into the design.
+17. [EmailJS API](https://www.emailjs.com/):
+    - The EmailJS API is used to power the #JOIN IN form so that a specific email address can receive what's input by form users.
+18. [Google Maps/Places API](https://developers.google.com/maps/documentation/javascript/overview):
+    - The Google Maps/Places API was used to create a map with chosen markers, information and a street view of each selected
+    location.
 
 # Testing 
 
@@ -304,10 +309,22 @@ which wasn't part of my original plan for the site.
 ## Content 
 Most of the pictures and written content are my own. However, some photographs are provided from friends and family members. All of the 
 towns information on the homepage is from Wikipedia. All of the photos used within the Info Windows on the map are externally sourced, 
-all written information on the info windows is typed myself. You can view the PDF document i made whilst planning the Info Window content
+all written information on the info windows is typed myself. You can view the PDF document I made whilst planning the Info Window content
 [here](/pdf/info-window-planning.pdf) to see a library of the written content and external image links used.
 
+## Media
+The only external media files used are the ones within the Info Windows generated on the map when a marker is selected. You can 
+find a list of the external links used [here](/pdf/info-window-planning.pdf). Some other images from external sources have been used
+with consent for this specific project.
 
+## Acknowledgements 
+
+- My local community group for helping me with missing content and forming strong opinions for what should be in the initial version 
+release.
+- Antonio Rodriguez, my mentor. For always being on hand to help me.
+- My partner, for continuing to push and motivate me.
+- The Code Institute Team and fellow students for helping me take this journey.
+- The Penwith Area, for inspiring me with its beauty.
 
 
 

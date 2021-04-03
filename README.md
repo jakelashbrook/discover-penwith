@@ -237,6 +237,60 @@ If you would like to contribute to the UX Survey, you can [click here](https://s
 I plan to add updates from the Survey before each new release of Discover Penwith.
 
 
+# Deployment 
+
+## GitHub Pages  
+
+I deployed the project to GitHub Pages directly from my repository settings. You can deploy for yourself following these steps:  
+
+1. Go to your [GitHub Account](https://github.com/) and sign in to your account.
+2. Find the [Discover Penwith](https://github.com/jakelashbrook/discover-penwith) repository.
+3. At the top of your repository, you should see a navigation explicitly for your repository starting with Code and ending with Settings. 
+Click on the "Settings" button on this menu.
+4. Scroll down the Settings Page until you reach the GitHub Pages Area.
+5.  Click on the dropdown that shows 'None' selected by default, and click on the 'Master' branch option. Click Save.
+6. The page automatically refreshes upon saving the Master branch, scroll back down to the GitHub Pages area.
+7. Here you will locate the [link](https://jakelashbrook.github.io/discover-penwith/index.html) to the newly deployed site on GitHub Pages. 
+
+To find out some more about GitHub Pages you can [click here](https://pages.github.com/).
+
+## Forking the repository
+
+You can fork the repository to make a copy of the original repository where you can make edits or changes to the files without affecting
+the original repository version. If you would like to fork the repository, follow these instructions:
+
+1. Login to your [GitHub Account](https://github.com/).
+2. Locate the [Discover Penwith](https://github.com/jakelashbrook/discover-penwith) repository.
+3. At the top of the repository (using the repository navigation bar, not the site navigation) just above the "Settings" button you 
+can locate the "Fork" button.
+4. Hit the "Fork" button.
+5. You should now have a copy of the [Discover Penwith repository](https://github.com/jakelashbrook/discover-penwith) in your
+personal GitHub Account repositories.
+
+To find out more about forking a repository on GitHub, you can [click here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+
+## Making a Local Clone 
+
+To make a local clone, follow these instructions:  
+
+1. Login to your [GitHub Account](https://github.com/).
+2. Locate the [Discover Penwith repository](https://github.com/jakelashbrook/discover-penwith).
+3. To clone the repository using HTTPS, underneath "Clone with HTTPS", copy the link.
+4.  Type `git clone` and then paste the HTTPS code you copied ealier.  
+
+    For example:  
+
+    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+5. Lastly, Press Enter and your local clone should be created for you.
+
+If you would like to read some more about creating local clones, you can [click here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+# Credits 
+
+
+
+
+
 
 
 

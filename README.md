@@ -1,6 +1,6 @@
 # Discover Penwith - Milestone 2 Project 
 
-link for live deployed site here 
+See the current [deployed version](https://jakelashbrook.github.io/discover-penwith/index.html) of the site.
 
 screenshot of site here 
 
@@ -224,7 +224,7 @@ page of the project to ensure there were no syntax errors in the project:
     used when analysing future releases and upgrades to the site.
     - The #SUPPORT section is aimed at getting users involved with the long term growth of the site by giving them insight into some 
     of the future design plans. It also enables users to donate to the upkeep and enhancement of the site by offering a payment link 
-    powered by Monzo (also listed as a Framework credit)
+    powered by Monzo (also listed as a Framework credit).
 
 ## UX Survey 
 

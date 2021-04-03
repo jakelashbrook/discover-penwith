@@ -159,6 +159,18 @@ a:hover {
   height: 450px;
 }
 
+/* Sets the size of the Info Window Images on Larger devices */
+.iw-image {
+  height: 200px;
+  max-width: 200px; 
+  }
+/* Media Query to set the size of the info window images smaller on smaller devices */
+@media only screen and (max-width: 600px) {
+    .iw-image {
+      height: 75px;
+      width: 75px;
+    }
+  }
 
 /*            NAVIGATION               */
 #navigation {
@@ -297,6 +309,11 @@ footer {
   color: #fafafa;
   border: 1px solid #fafafa;
   font-weight: 700;
+}
+
+/* Map Height Rule */
+#map {
+  height: 100%;
 }
 
 /*               JOIN IN PAGE                     */

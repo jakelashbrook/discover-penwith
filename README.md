@@ -88,7 +88,7 @@ my eyes some extra screen free time to recover and recoup slightly. You can find
 
 Throughout the design process some ideas and factors of the website have changed, for clarity I have decided to write an evaluation 
 of the changes made to each page here. Some aspects of the site such as the Navigation and Footer are available across all pages, and 
-are identical in style and functionality.
+are identical in style and functionality. 
 
 - **The Discover Page:**
 
@@ -156,6 +156,14 @@ are identical in style and functionality.
      - Facebook has been used to supply the images across this site, the majority from my personal profile and others
      have been sourced from the local facebook group I participate in with consent from the owners.
 
+15. [FormsApp](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome):
+    - I decided to build in an ongoing survey for users to contribute their User Experience Stories to be used for future
+    reviews and possible changes to the site based on the suggestions made.
+
+16. [Monzo](https://monzo.me/jakelashbrook6):
+    - I also decided to add a donation button to the #SUPPORT section because i was intrigued with the monzo payment link technology.
+    This is an area i will likely build on in the future development of the app by incorporating Stripe and/or Paypal into the design.
+
 # Testing 
 
 ## Validation 
@@ -163,20 +171,72 @@ are identical in style and functionality.
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every 
 page of the project to ensure there were no syntax errors in the project:
 
-- [W3 Markup Validator Results]()  
+- [W3 Markup Validator Results - Discover Page]()  
+  -
+- [W3 Markup Validator Results - Explore Page]()  
+  -
+- [W3 Markup Validator Results - Join In Page]()  
   -
 
 - [W3C CSS Validator Results]()  
   -
 
-- [Esprima Validator Results]()
+- [JShint Validator Results]()
    -
 
 ## Testing User Stories from the UX Section 
 
+- First Time User Goals:  
+  - a. As a First Time User, I want to be able to easily navigate the site.
+    - When you enter the site, there are clear navigation options across all page.
+    - Every page of the site features 'Call To Action' buttons that easily navigate to other areas of the site.
+    - Every page features a 'back to the top' button that appears when the page has been scrolled through.
+    - The discover page features information areas you can open easily for each town. Each area has a close button floating
+    at the top-right side of the page.
+  - b. As a First Time User, I want to have access to information on destinations without being drowned in information 
+  that i'm not looking for.
+    - The town areas are contained within areas that can be easily opened or closed with clear UX friendly buttons.
+    - There is a slideshow of destinations to visit on the homepage with easy usability and links for more information.
+  - c. As a First Time User, I want tips or ideas on different places to visit whilst visiting Cornwall.
+    - There is the slideshow mentioned above with easy suggestions for days out.
+    - The #EXPLORE map contains 36 different destinations to visit for users, with links and information available for the selected
+    destinations.
+
+- Frequent User Goals:  
+  - a. As a Frequent User, I want to be able to access the sites Social Media to see if there is any extra 
+  information or news available on those channels.
+    - The Social Media Links are available throughout the site within the footer area.
+  - b. As a Frequent User, I want to be able to easily navigate to external sources of supporting information.
+    - All relevant external resources are linked within the appropriate sections. There are links to the selected 
+    locations websites (where applicable) within their generated info links. 
+    - There are also links available for transport information to external websites within the selected towns information areas
+    on the homepage.
+    - All links are targeted as blank to open new windows for users.
+- Returning User Goals:  
+  - a. As a Returning User, I want to be able to get involved with making suggestions for places to visit and
+  extra site content.
+    - I've tried to add in multiple ways for users to get involved with the website by creating a whole page # JOIN IN 
+    dedicated to fulfulling user engagement with Discover Penwith.
+    - The # JOIN IN form prompts users to send a message if they want any destinations adding to the site, any new content or 
+    would like to get involved in some other way.
+    - The #FEEDBACK section within the #JOIN IN page is especially dedicated to surverying users on their User Experience. This is 
+    an ongoing survey taken via an external link with a 3rd party (See Frameworks Credited) organisation. The survey data will be 
+    used when analysing future releases and upgrades to the site.
+    - The #SUPPORT section is aimed at getting users involved with the long term growth of the site by giving them insight into some 
+    of the future design plans. It also enables users to donate to the upkeep and enhancement of the site by offering a payment link 
+    powered by Monzo (also listed as a Framework credit)
+
 ## UX Survey 
 
-## Jasmine 
+Like my previous project, I decided to incorporate extra facilities for User Experience Testing by incorporating the surveyheart 
+app into my # JOIN IN page. Users simply have to click on the button and leave their thoughts and opinions. The ongoing survey Results
+will be analysed and used for building future enhancements and releases of the app after the initial MVP release. 
+
+If you would like to contribute to the UX Survey, you can [click here](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome).
+
+I plan to add updates from the Survey before each new release of Discover Penwith.
+
+
 
 
 

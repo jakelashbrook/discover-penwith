@@ -316,6 +316,11 @@ footer {
   height: 100%;
 }
 
+/* Street View height Rule */
+#street-view {
+  height: 100%;
+}
+
 /*               JOIN IN PAGE                     */
 /* navigation rules for join-in page */
 #navigation-join-in {

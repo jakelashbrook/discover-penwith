@@ -245,6 +245,13 @@ If you would like to contribute to the UX Survey, you can [click here](https://s
 
 I plan to add updates from the Survey before each new release of Discover Penwith.
 
+## Manual Testing During Initial Deployment Stages
+To be safe and know for sure my MVP website is ready for an initial release and go to submission for my course with Code Institute, 
+I decided to make a log of the processes of manual testing undertaken after the initial deployment in order to assess whether it's 
+at an acceptable level to release as an MVP and submit.
+
+- To begin with, I've started testing on mobile and laptop manually whether all of the links, buttons, and images are doing what they're
+supposed to be. On initial checking- they're all responding how i expected them too. 
 
 # Deployment 
 

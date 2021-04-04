@@ -77,14 +77,18 @@ intuitively used to the sites design.
 I decided to sketch my wireframes by hand because i'm much more confident with designing them this way- and in all honesty it gives
 my eyes some extra screen free time to recover and recoup slightly. You can find links to my original wireframes below:
 
-- **The Discover Penwith Desktop Wireframes:**  
+- **The Discover Penwith Desktop Wireframes:**
 [PDF of Desktop Wireframes](/pdf/discover-penwith-wireframes.pdf)  
 
-  Please see the attached PDF for a written summary of the desktop wireframes for this project.  
+  Please see the attached PDF for a written summary of the desktop wireframes for this project along with images of the original
+  sketches.  
 
 - **The Mobile Wireframe:** 
+[PDF of Mobile Wireframe](/pdf/mobile-wireframe.pdf)
 
-## Site Evolution and Page Specific Features
+  Please see the attached PDF for a written summary and image of the sketched wireframe.  
+
+## Site Evolution Since Wireframe Sketches
 
 Throughout the design process some ideas and factors of the website have changed, for clarity I have decided to write an evaluation 
 of the changes made to each page here. Some aspects of the site such as the Navigation and Footer are available across all pages, and 

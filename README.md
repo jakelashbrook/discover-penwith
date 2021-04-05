@@ -246,12 +246,41 @@ If you would like to contribute to the UX Survey, you can [click here](https://s
 I plan to add updates from the Survey before each new release of Discover Penwith.
 
 ## Manual Testing During Initial Deployment Stages
+
 To be safe and know for sure my MVP website is ready for an initial release and go to submission for my course with Code Institute, 
 I decided to make a log of the processes of manual testing undertaken after the initial deployment in order to assess whether it's 
-at an acceptable level to release as an MVP and submit.
+at an acceptable level to release as an MVP and submit.To begin with, I've started testing on mobile and laptop manually whether all of 
+the links, buttons, and images are doing what they're supposed to be. On initial checking- they're all responding how i expected them too.  
 
-- To begin with, I've started testing on mobile and laptop manually whether all of the links, buttons, and images are doing what they're
-supposed to be. On initial checking- they're all responding how i expected them too. 
+**Discover Page Testing:**
+1. All links on page checked to make sure that they're functioning correctly. 
+2. Check page validation again in at [W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html) 
+for the 'Discover' homepage.
+ - i. Warning given about using the type attribute on the Javascript resource link to the main.js file. 
+ - ii. Error listed for the function saying 'Attribute function not allowed at this point of the a element'. 
+3. Checked to see all images are loaded correctly.
+4. Checked all buttons are functioning correctly.
+
+**Explore Page Testing:** 
+1. All links on the #EXPLORE page have been tested and are working. 
+2. The map has been tested and is working but with 2 slight glitches:
+ - i. The map doesn't automatically load until one of the buttons that generates the different markers on the map is clicked.
+ - ii. The info windows generate on the map as expected, however when a new info-window is clicked the previous one does not close
+ as was expected. This is a problem within the codebase that needs to be carefully fixed to enhance the overall User Experience.
+3. As expected, the Street View of each marker selected is generated upon a new marker being clicked. There are no problems with 
+this feature. However, I plan to keep an eye on the street view locations to see if they can be updated if/when Google updates the 
+locations which offer a Street View.
+4. All images displayed correctly.
+5. The last thing that caught my attention was that when the # TOUR section appears with the Street View the section blends with the 
+footer, this can be resolved with a simple white border-top being added to the footer element. 
+
+**Join In Page Testing:**
+1. All links work correctly.
+2. The form functions correctly. 
+3. All Images display correctly on the page and the info-windows.
+4. All buttons function correctly. 
+
+** Overall Site Testing:**
 
 # Deployment 
 

@@ -238,13 +238,18 @@ page of the project to ensure there were no syntax errors in the project:
 
 ## UX Survey 
 
-Like my previous project, I decided to incorporate extra facilities for User Experience Testing by incorporating the surveyheart 
-app into my # JOIN IN page. Users simply have to click on the button and leave their thoughts and opinions. The ongoing survey Results
-will be analysed and used for building future enhancements and releases of the app after the initial MVP release. 
+Like my previous project, I decided to incorporate extra facilities for User Experience Testing by using the surveyheart 
+app on my # JOIN IN page. Users simply have to click on the button, a new window will open with the survey and users can
+leave their thoughts and opinions. The ongoing survey results will be analysed and used for building future enhancements 
+and releases of the app after the initial MVP release. 
 
 If you would like to contribute to the UX Survey, you can [click here](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome).
 
-I plan to add updates from the Survey before each new release of Discover Penwith.
+I plan to add suggested updates from the Survey before each new release of Discover Penwith.
+
+Upon completing the survey users can see a summary of all the questions that have been asked so far, This summary will be 
+evaluated before each new release planning starts. Please [take the survey](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome) if you would like to see an analysis of the results
+so far.
 
 ## Manual Testing During Initial Deployment Stages
 

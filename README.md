@@ -276,7 +276,9 @@ for the 'Discover' homepage.
 2. The map has been tested and is working but with 2 slight glitches:
  - i. The map doesn't automatically load until one of the buttons that generates the different markers on the map is clicked.  
     - Upon first inspection of the code for the map, I have noticed that I have not added the polyfill CDN link for the map, so my 
-    first resolution attempt will be to add this back into the code.
+    first resolution attempt will be to add this back into the code. This did not appear to change anything! So then i checked the
+    link and realised i had removed the callback for the initMap function, this has now been replaced and the map is loading again 
+    with the rest of the page content.
  - ii. The info windows generate on the map as expected, however when a new info-window is clicked the previous one does not close
  as was expected. This is a problem within the codebase that needs to be carefully fixed to enhance the overall User Experience.
 3. As expected, the Street View of each marker selected is generated upon a new marker being clicked. There are no problems with 

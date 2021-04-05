@@ -281,12 +281,16 @@ for the 'Discover' homepage.
     with the rest of the page content.
  - ii. The info windows generate on the map as expected, however when a new info-window is clicked the previous one does not close
  as was expected. This is a problem within the codebase that needs to be carefully fixed to enhance the overall User Experience.
+    - Although I wrote code to close the open InfoWindow when a new one is opened, the code is faulty and isn't functioning correctly.
+    I have tried a few different ways to fix this, and currently haven't been able to find a solution, however the site is still fully
+    functional- it's just annoying having to individually close each InfoWindow to stop them overlapping. A fix is on the way!
 3. As expected, the Street View of each marker selected is generated upon a new marker being clicked. There are no problems with 
 this feature. However, I plan to keep an eye on the street view locations to see if they can be updated if/when Google updates the 
 locations which offer a Street View.
 4. All images displayed correctly.
 5. The last thing that caught my attention was that when the # TOUR section appears with the Street View the section blends with the 
-footer, this can be resolved with a simple white border-top being added to the footer element. 
+footer- this has been resolved with a simple white inline style rule of a white border-top being added to the footer element on the 
+explore page. 
 6. HTML Sections need to be distinguished for SEO.
 
 **Join In Page Testing:**

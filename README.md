@@ -34,7 +34,7 @@ site content, and help grow the local economy back from the Pandemic and Brexit 
 - First Time User Goals:  
   - a. As a First Time User, I want to be able to easily navigate the site.
   - b. As a First Time User, I want to have access to information on destinations without being drowned in information 
-  that i'm not looking for.
+  that I'm not looking for.
   - c. As a First Time User, I want tips or ideas on different places to visit whilst visiting Cornwall.
 
 - Frequent User Goals:  
@@ -50,7 +50,7 @@ site content, and help grow the local economy back from the Pandemic and Brexit 
 ## Design  
 
 - **Typography:**  
-The site has uses Google Fonts to style the Typorgraphy. The main font used is Open Sans Condensed, with Lato and
+The site uses Google Fonts to style the Typorgraphy. The main font used is Open Sans Condensed, with Lato and
 Caveat used as secondary fonts. 
 
 - **Logo:**  
@@ -74,7 +74,7 @@ intuitively used to the sites design.
 
 ## Wireframes  
 
-I decided to sketch my wireframes by hand because i'm much more confident with designing them this way- and in all honesty it gives
+I decided to sketch my wireframes by hand because I'm much more confident with designing them this way- and in all honesty it gives
 my eyes some extra screen free time to recover and recoup slightly. You can find links to my original wireframes below:
 
 - **The Discover Penwith Desktop Wireframes:**
@@ -165,10 +165,11 @@ are identical in style and functionality.
     reviews and possible changes to the site based on the suggestions made.
 
 16. [Monzo Payment Links](https://monzo.me/jakelashbrook6):
-    - I also decided to add a donation button to the #SUPPORT section because i was intrigued with the monzo payment link technology.
-    This is an area i will likely build on in the future development of the app by incorporating Stripe and/or Paypal into the design.
+    - I also decided to add a donation button to the #SUPPORT section because I was intrigued with the monzo payment link technology.
+    This is an area I will likely build on in the future development of the app by incorporating Stripe and/or Paypal into the design.
 17. [EmailJS API](https://www.emailjs.com/):
-    - The EmailJS API is used to power the #JOIN IN form so that a specific email address can receive what's input by form users.
+    - The EmailJS API is used to power the #JOIN IN form so that a specific email address can receive what's input by the website form 
+    users.
 18. [Google Maps/Places API](https://developers.google.com/maps/documentation/javascript/overview):
     - The Google Maps/Places API was used to create a map with chosen markers, information and a street view of each selected
     location.
@@ -203,7 +204,7 @@ page of the project to ensure there were no syntax errors in the project:
     - The discover page features information areas you can open easily for each town. Each area has a close button floating
     at the top-right side of the page.
   - b. As a First Time User, I want to have access to information on destinations without being drowned in information 
-  that i'm not looking for.
+  that I'm not looking for.
     - The town areas are contained within areas that can be easily opened or closed with clear UX friendly buttons.
     - There is a slideshow of destinations to visit on the homepage with easy usability and links for more information.
   - c. As a First Time User, I want tips or ideas on different places to visit whilst visiting Cornwall.
@@ -249,8 +250,8 @@ I plan to add updates from the Survey before each new release of Discover Penwit
 
 To be safe and know for sure my MVP website is ready for an initial release and go to submission for my course with Code Institute, 
 I decided to make a log of the processes of manual testing undertaken after the initial deployment in order to assess whether it's 
-at an acceptable level to release as an MVP and submit.To begin with, I've started testing on mobile and laptop manually whether all of 
-the links, buttons, and images are doing what they're supposed to be. On initial checking- they're all responding how i expected them too.  
+at an acceptable level to release as an MVP and submit. To begin with, I've started testing on mobile and laptop manually whether all of 
+the links, buttons, and images are doing what they're supposed to be. On initial checking- they're all responding how I expected them too.  
 
 **Discover Page Testing:**
 1. All links on page checked to make sure that they're functioning correctly. 
@@ -260,6 +261,7 @@ for the 'Discover' homepage.
  - ii. Error listed for the function saying 'Attribute function not allowed at this point of the a element'. 
 3. Checked to see all images are loaded correctly.
 4. Checked all buttons are functioning correctly.
+5. HTML sections need to be distinguished for SEO.
 
 **Explore Page Testing:** 
 1. All links on the #EXPLORE page have been tested and are working. 
@@ -273,12 +275,14 @@ locations which offer a Street View.
 4. All images displayed correctly.
 5. The last thing that caught my attention was that when the # TOUR section appears with the Street View the section blends with the 
 footer, this can be resolved with a simple white border-top being added to the footer element. 
+6. HTML Sections need to be distinguished for SEO.
 
 **Join In Page Testing:**
 1. All links work correctly.
 2. The form functions correctly. 
 3. All Images display correctly on the page and the info-windows.
 4. All buttons function correctly. 
+5. HTML Section need to be distinguished for SEO.
 
 ** Overall Site Testing:**
 
@@ -340,7 +344,7 @@ the website.
 - [W3C Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top):
 This guide to make a 'Back to the top' button was used build my back to the top button.
 
-- [Code Institure](https://codeinstitute.net/): For all the lessons i've learnt so far to enable me to code to this level.
+- [Code Institute](https://codeinstitute.net/): For all the lessons i've learnt so far to enable me to code to this level.
 
 - [Google Developer Docs](https://developers.google.com/maps/documentation/javascript/overview): All of the Google API Documentation 
 for helping me learn to use the API's and create ideas for better concepts within my app by also including a street view of my markers

@@ -267,9 +267,9 @@ for the 'Discover' homepage.
  - ii. Error listed for the function saying 'Attribute function not allowed at this point of the a element'. 
     - Issue Fix - First attempt, moving the function call to the start of the attribute list. This makes no difference whatsoever, so then 
     I tired to change the function attribute to the onclick attribute. This [fixed the issue](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html).
-3. Checked to see all images are loaded correctly.
-4. Checked all buttons are functioning correctly.
-5. HTML sections need to be distinguished for SEO.
+3. Checked to see all images are loaded correctly- No issues found.
+4. Checked all buttons are functioning correctly- No issues found.
+5. HTML sections need to be distinguished for SEO- Section and Main tags added to index.html.
 
 **Explore Page Testing:** 
 1. All links on the #EXPLORE page have been tested and are working. 

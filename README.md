@@ -328,7 +328,8 @@ This is the highest possible score that can be achieved for this category of tes
 This is a very high score for Best Practices, so i'm extremely happy with this. However, lets have a look at what could be improved: 
 - Links to cross-origin destinations are unsafe. 
     - So this is a pretty easy fix, to improve the security of the site I just need to make sure the all exterior links are using the
-    'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities.
+    'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities. This has been added to all links 
+    with an external source.
 
 **SEO Score: 91/100**  
 Again, this a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:

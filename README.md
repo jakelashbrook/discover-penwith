@@ -291,7 +291,7 @@ locations which offer a Street View.
 5. The last thing that caught my attention was that when the # TOUR section appears with the Street View the section blends with the 
 footer- this has been resolved with a simple white inline style rule of a white border-top being added to the footer element on the 
 explore page. 
-6. HTML Sections need to be distinguished for SEO.
+6. HTML Sections need to be distinguished for SEO- section and main tags Added to explore.html page.
 
 **Join In Page Testing:**
 1. All links work correctly.

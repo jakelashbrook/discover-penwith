@@ -305,8 +305,10 @@ This testing is relevant at the time of the testing being executed and was carri
 listed above. Lighthouse breaks the testing into 4 categories: Performance, Accessibility, Best Practices, and SEO. I will use the 
 test results to try and improve the websites functionality and to improve the speed at which it loads the content of the site.
 
-### Mobile Testing:
-The initial mobile testing after deployment was carried out on 05/04/2021.  
+### Mobile and Desktop Lighthouse Testing:
+The initial mobile testing after deployment was carried out on 05/04/2021. All test results for Desktop came back as over 90%,
+so I'm happy with the Desktop Lighthouse Testing. Please see below the scores given for mobile testing and some of the resolutions
+used so far.
 
 **Performance Score: 86/100**  
 Suggestions to improve the performance:  
@@ -346,8 +348,6 @@ Again, this a very high score that I'm extremely happy with- however let's take 
     no warnings or errors. The same results were given from the Structured Data Linter.
   
 
-
-### Desktop Testing
 
 
 

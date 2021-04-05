@@ -300,7 +300,52 @@ explore page.
 4. All buttons function correctly. 
 5. HTML Section need to be distinguished for SEO- Section and Main tags Added to HTML code.
 
-** Overall Site Testing:**
+## Lighthouse Site Testing 
+This testing is relevant at the time of the testing being executed and was carried out after the manual site testing that has been 
+listed above. Lighthouse breaks the testing into 4 categories: Performance, Accessibility, Best Practices, and SEO. I will use the 
+test results to try and improve the websites functionality and to improve the speed at which it loads the content of the site.
+
+### Mobile Testing:
+The initial mobile testing after deployment was carried out on 05/04/2021.  
+
+**Performance Score: 86/100**  
+Suggestions to improve the performance:  
+- Eliminate render blocking resources. 
+    - So this means I need to make sure i defer any resources being called on before the first paint of the website, aswell as remove 
+    any unneccesary external links, resources or frameworks. The only option I have here is to check all links that can be deferred 
+    until the page has been loaded have been.  
+- Serve static assets with an efficient cache policy. 
+    - Currently I'm not advanced in my knowledge enough to know how to change this, 
+so I have read the information provided by Lighthouse and will attach the [documentation](https://web.dev/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools) 
+to address in a later release of the website.
+
+**Accessibility Score: 100/100**  
+
+This is the highest possible score that can be achieved for this category of testing- so I'm sufficiently happy with this area of testing.
+
+**Best Practices Score: 93/100**  
+
+This is a very high score for Best Practices, so i'm extremely happy with this. However, lets have a look at what could be improved: 
+- Links to cross-origin destinations are unsafe. 
+    - So this is a pretty easy fix, to improve the security of the site I just need to make sure the all exterior links are using the
+    'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities.
+
+**SEO Score: 91/100**  
+Again, this a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:
+- Document does not have META description.  
+    - This is an easy fix, it just needs each page to have a meta description added. For more information on this,
+    [click here](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools).  
+- Structured Data is Valid.
+    - Google Lighthouse offers the [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) 
+    and the [Structured Data Linter](http://linter.structured-data.org/) to validate Structured Data. I will use these Tools 
+    to help improve the overall SEO score where possible for this site. The website passed the Structured Data Testing Tool with 
+    no warnings or errors. The same results were given from the Structured Data Linter.
+  
+
+
+### Desktop Testing
+
+
 
 # Deployment 
 

@@ -334,7 +334,7 @@ This is a very high score for Best Practices, so i'm extremely happy with this. 
 Again, this a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:
 - Document does not have META description.  
     - This is an easy fix, it just needs each page to have a meta description added. For more information on this,
-    [click here](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools).  
+    [click here](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools). Meta descriptions added to pages.
 - Structured Data is Valid.
     - Google Lighthouse offers the [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/) 
     and the [Structured Data Linter](http://linter.structured-data.org/) to validate Structured Data. I will use these Tools 

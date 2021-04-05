@@ -294,11 +294,11 @@ explore page.
 6. HTML Sections need to be distinguished for SEO- section and main tags Added to explore.html page.
 
 **Join In Page Testing:**
-1. All links work correctly.
-2. The form functions correctly. 
-3. All Images display correctly on the page and the info-windows.
+1. All links on the #JOIN IN page working correctly.
+2. The form on the #JOIN IN page is functioning correctly after manual testing- responses received from site testers also. 
+3. All Images display correctly on the page and on the map info-windows.
 4. All buttons function correctly. 
-5. HTML Section need to be distinguished for SEO.
+5. HTML Section need to be distinguished for SEO- Section and Main tags Added to HTML code.
 
 ** Overall Site Testing:**
 

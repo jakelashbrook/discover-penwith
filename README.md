@@ -263,8 +263,9 @@ the links, buttons, and images are doing what they're supposed to be. On initial
 2. Check page validation again in at [W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html) 
 for the 'Discover' homepage.
  - i. Warning given about using the type attribute on the Javascript resource link to the main.js file. 
-    - Issue Fix - removed the type attribute from the index.html page. 
+    - Issue Fix - removed the type attribute from the index.html page. [Issue Fixed](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html).
  - ii. Error listed for the function saying 'Attribute function not allowed at this point of the a element'. 
+    - Issue Fix - First attempt, moving the function call to the start of the attribute list.
 3. Checked to see all images are loaded correctly.
 4. Checked all buttons are functioning correctly.
 5. HTML sections need to be distinguished for SEO.

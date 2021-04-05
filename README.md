@@ -318,6 +318,9 @@ Suggestions to improve the performance:
     - Currently I'm not advanced in my knowledge enough to know how to change this, 
 so I have read the information provided by Lighthouse and will attach the [documentation](https://web.dev/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools) 
 to address in a later release of the website.
+- Amp-Img tags for images used in Javascript generated areas.
+    - To help improve page performance I have changed all IMG tags within the town information areas to AMP-IMG tags. These areas are
+    only available to Javascript enabled devices.
 
 **Accessibility Score: 100/100**  
 

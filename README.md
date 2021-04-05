@@ -313,7 +313,7 @@ Suggestions to improve the performance:
 - Eliminate render blocking resources. 
     - So this means I need to make sure i defer any resources being called on before the first paint of the website, aswell as remove 
     any unneccesary external links, resources or frameworks. The only option I have here is to check all links that can be deferred 
-    until the page has been loaded have been.  
+    until the page has been loaded have been.  All available links have been deffered.
 - Serve static assets with an efficient cache policy. 
     - Currently I'm not advanced in my knowledge enough to know how to change this, 
 so I have read the information provided by Lighthouse and will attach the [documentation](https://web.dev/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools) 

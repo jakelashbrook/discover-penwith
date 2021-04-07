@@ -316,12 +316,6 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				$('#the-tour').removeClass('d-none');   
 			});
             
-           // Closes Open Info Windows
-           google.maps.event.addListener(infowindow, 'click', function() {
-               if (infowindow, 'click') {
-                   this.infowindow.close();
-               }
-           });
 
 		}
 	}

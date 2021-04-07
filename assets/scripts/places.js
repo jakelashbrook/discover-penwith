@@ -303,6 +303,8 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				content: selectedLocations[i].content,
 				// Adds the content connected to the locations to the infowindows
 			});
+
+            let prev_infowindow = false;
 			// Adds Click Listener for generating infowindows
 			google.maps.event.addListener(marker, 'click', function () {
 				infowindow.close(); // Close previously opened infowindow 
@@ -312,6 +314,13 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				panorama.setPosition(selectedLocations[i].coords);
 				// Shows # TOUR section when marker is selected  
 				$('#the-tour').removeClass('d-none');
+
+                if (prev_infowindow) {
+                    prev_infowindow.close();
+                }
+
+                prev_infowindow = infowindow;
+                infowindow.open(map, marker)
 			});
 		}
 	}

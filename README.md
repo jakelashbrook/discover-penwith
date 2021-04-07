@@ -181,7 +181,7 @@ are identical in style and functionality.
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every 
 page of the project to ensure there were no syntax errors in the project:
 
-- [W3 Markup Validator Results - Discover Page]()  
+- [W3 Markup Validator Results - Discover Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html)  
   -
 - [W3 Markup Validator Results - Explore Page]()  
   -

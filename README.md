@@ -91,14 +91,43 @@ my eyes some extra screen free time to recover and recoup slightly. You can find
 ## Site Evolution Since Wireframe Sketches
 
 Throughout the design process some ideas and factors of the website have changed, for clarity I have decided to write an evaluation 
-of the changes made to each page here. Some aspects of the site such as the Navigation and Footer are available across all pages, and 
-are identical in style and functionality. 
+of the changes made to each page since the initial wireframe design process here. Some aspects of the site such as the Navigation and 
+Footer are available across all pages, and are identical in style and functionality. 
 
 - **The Discover Page:**
+    The Discover Page is the homepage of the website. It offers a very brief introduction, and features information sections on the 
+    three main towns featured on the Discover Penwith site. The Wireframe I originally made for the Discover Page is essentially 
+    identical to layout coded. There are no significant changes made that need addressing here.
 
-- **The Explore Page:**
+- **The Explore Page:** 
+    The Explore Page is probably the page that has evolved the most since the original wireframe sketch, this is largely due to 
+    better ideas forming from further research whilst looking into the Google Development Documentation. Originally, I was going 
+    to have button groups for each of the three main towns (St Ives, Hayle and Penzance), and then have 3 categories that would 
+    show up after the town buttons are clicked, and then upon clicking one of the 3 categories- markers are dropped on the map 
+    within the area of that town. However, after further analysis- i realised that given the site is about the Penwith area as a 
+    whole, it would be much more productive to have 3 categories of markers that covered the whole of the Penwith Area. 
+
+    Also, within the original wireframe i planned to have the infowindow content appear below the map once a marker had been clicked on,
+    but through the design process i decided i wanted to have a 'Virtual Tour' option for the destinations. This was largely inspired 
+    by the lockdowns we've all been experiencing. I thought it would be a nice feature for people to explore and plan trips from the 
+    comfort of their homes. To do this, i attached the Street View div to the infowindows/markers so that they could take the tour 
+    below the map and get any necessary information from the infowindows on the map at the same time. 
+
+    I also removed the #GET INVOLVED section. Users can use the CTA button in the hero image area to jump to the #JOIN IN page.
 
 - **The Join In Page:**
+    The #JOIN IN page has changed a little bit, but it has mainly been done to make way for early planning towards later releases of 
+    the website and enhance User Experience and Interaction. The Form Area is exactly the same as the wireframe sketch, except in the 
+    first release the form does not allow users to upload documents or media files- this is something that will be added at a later 
+    date due to not currently having the available time to process such requests from Users regarding content updates or changes.
+
+    The # NEWSLETTER area has also been scrapped. This is something that was deemed ineffective as their is currently no extra content 
+    or news to offer to users. This may be incorporated at a later date if it becomes relevant. Instead, I have a #FEEDBACK section 
+    so that users can easily give their thoughts and opinions and help to improve the website by taking part in a survey produced 
+    specifically for this purpose. 
+
+    The # SUPPORT section has remained, and mainly focuses on letting users know some of the future plans for the website and giving 
+    them a chance to contribute/donate to the running and upkeep of the site via a secure Monzo payment link that opens an external page.
 
 # Technologies Used 
 
@@ -290,6 +319,8 @@ locations which offer a Street View.
 footer- this has been resolved with a simple white inline style rule of a white border-top being added to the footer element on the 
 explore page. 
 6. HTML Sections need to be distinguished for SEO- section and main tags Added to explore.html page.
+7. Throughout the design process I've been trying to modify my Javascript code so that the info windows close when another is clicked,
+I have not worked out a solution to this so far- but have made it the number 1 priority for the second release.
 
 **Join In Page Testing:**
 1. All links on the #JOIN IN page working correctly.

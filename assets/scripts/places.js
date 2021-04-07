@@ -316,7 +316,7 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				$('#the-tour').removeClass('d-none');   
 			});
             
-
+        
 		}
 	}
 }

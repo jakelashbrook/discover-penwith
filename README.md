@@ -182,14 +182,10 @@ The W3C Markup Validator and The W3C CSS Validator Services were used to validat
 page of the project to ensure there were no syntax errors in the project:
 
 - [W3 Markup Validator Results - Discover Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html)  
-  -
 - [W3 Markup Validator Results - Explore Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Fexplore.html)  
-  -
 - [W3 Markup Validator Results - Join In Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Fjoin-in.html)  
-  -
-
-- [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator)  
-  -
+- [W3C CSS Validator Results - style.css](https://jigsaw.w3.org/css-validator/validator)  
+  
 
 - [Esprima Javascript Validator](https://esprima.org/demo/validate.html)
    - The results for main.js said the code is syntactically valid.
@@ -253,7 +249,7 @@ Upon completing the survey users can see a summary of all the questions that hav
 evaluated before each new release planning starts. Please [take the survey](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome) if you would like to see an analysis of the results
 so far.
 
-## Manual Testing During Initial Deployment Stages
+## Manual Testing (During Initial Deployment Stages)
 
 To be safe and know for sure my MVP website is ready for an initial release and go to submission for my course with Code Institute, 
 I decided to make a log of the processes of manual testing undertaken after the initial deployment in order to assess whether it's 
@@ -307,12 +303,12 @@ This testing is relevant at the time of the testing being executed and was carri
 listed above. Lighthouse breaks the testing into 4 categories: Performance, Accessibility, Best Practices, and SEO. I will use the 
 test results to try and improve the websites functionality and to improve the speed at which it loads the content of the site.
 
-### Mobile and Desktop Lighthouse Testing:
+### Mobile and Desktop Testing On Lighthouse:
 The initial mobile testing after deployment was carried out on 05/04/2021. All test results for Desktop came back as over 90%,
 so I'm happy with the Desktop Lighthouse Testing. Please see below the scores given for mobile testing and some of the resolutions
 used so far.
 
-**Performance Score: 86/100**  
+**Performance**  
 Suggestions to improve the performance:  
 - Eliminate render blocking resources. 
     - So this means I need to make sure i defer any resources being called on before the first paint of the website, aswell as remove 
@@ -326,11 +322,15 @@ to address in a later release of the website.
     - To help improve page performance I have changed all IMG tags within the town information areas to AMP-IMG tags. These areas are
     only available to Javascript enabled devices.
 
-**Accessibility Score: 100/100**  
+The page with that needs the most long term attention is the #EXPLORE page for mobile devices, with the performance score ranking at 
+around 54/100. Lighthouse lists the following suggestions and warnings for improving the performance here: 
+    - Uncaught Reference Error: google is not defined. Errors are within the places.js file at line 280 and 330!
+
+**Accessibility**  
 
 This is the highest possible score that can be achieved for this category of testing- so I'm sufficiently happy with this area of testing.
 
-**Best Practices Score: 93/100**  
+**Best Practices**  
 
 This is a very high score for Best Practices, so i'm extremely happy with this. However, lets have a look at what could be improved: 
 - Links to cross-origin destinations are unsafe. 
@@ -338,7 +338,7 @@ This is a very high score for Best Practices, so i'm extremely happy with this. 
     'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities. This has been added to all links 
     with an external source.
 
-**SEO Score: 91/100**  
+**SEO Score**  
 Again, this a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:
 - Document does not have META description.  
     - This is an easy fix, it just needs each page to have a meta description added. For more information on this,

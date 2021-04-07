@@ -277,7 +277,7 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 		lat: 50.15592965951147,
 		lng: -5.544052652338384
 	};
-	map = new google.maps.Map(document.getElementById("map"), {
+	let map = new google.maps.Map(document.getElementById("map"), {
 		zoom: 11,
 		center: myLatlng,
 		MapTypeControlOptions: {

@@ -318,8 +318,8 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
             
            // Closes Open Info Windows
            google.maps.event.addListener(infowindow, 'click', function() {
-               if (new marker, 'click') {
-                   infowindow.close();
+               if (infowindow, 'click') {
+                   this.infowindow.close();
                }
            });
 

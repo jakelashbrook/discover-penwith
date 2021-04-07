@@ -298,15 +298,18 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				map: map,
 				icon: iconBase + "arrow.png", // Adds a customized icon to the map 
 			});
+
+            // Previous infowindow
+            let prev_infowindow = false;
 			// Creates the info windows
 			const infowindow = new google.maps.InfoWindow({
 				content: selectedLocations[i].content,
 				// Adds the content connected to the locations to the infowindows
 			});
 
-            let prev_infowindow = false;
 			// Adds Click Listener for generating infowindows
 			google.maps.event.addListener(marker, 'click', function () {
+                if (prev_infowindow) {
 				infowindow.close(); // Close previously opened infowindow 
 				infowindow.setContent(selectedLocations[i].content);
 				infowindow.open(map, marker);
@@ -314,10 +317,7 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				panorama.setPosition(selectedLocations[i].coords);
 				// Shows # TOUR section when marker is selected  
 				$('#the-tour').removeClass('d-none');
-
-                if (prev_infowindow) {
-                    prev_infowindow.close();
-                }
+                }git a
 
                 prev_infowindow = infowindow;
                 infowindow.open(map, marker)

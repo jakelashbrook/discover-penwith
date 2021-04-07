@@ -308,10 +308,10 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 			// Adds Click Listener for generating infowindows
 			google.maps.event.addListener(marker, 'click', function () {  
 				infowindow.close(); // Close previously opened infowindow 
-				this.infowindow.setContent(selectedLocations[i].content);
-				this.infowindow.open(map, marker);
+				infowindow.setContent(selectedLocations[i].content);
+				infowindow.open(map, marker);
 				// Sets the Street View to the marker clicked on 
-				this.panorama.setPosition(selectedLocations[i].coords);
+				panorama.setPosition(selectedLocations[i].coords);
 				// Shows # TOUR section when marker is selected  
 				$('#the-tour').removeClass('d-none');   
 			});

@@ -1,8 +1,8 @@
 # Discover Penwith - Milestone 2 Project 
 
-See the current [deployed version](https://jakelashbrook.github.io/discover-penwith/index.html) of the site.
+See the current [Deployed Version](https://jakelashbrook.github.io/discover-penwith/index.html) of the site.
 
-screenshot of site here 
+![Screenshot of Deployed Site](./assets/images/deployed-screenshot.jpg)
 
 ## Site Summary and Development Plan
 

@@ -324,7 +324,11 @@ to address in a later release of the website.
 
 The page with that needs the most long term attention is the #EXPLORE page for mobile devices, with the performance score ranking at 
 around 54/100. Lighthouse lists the following suggestions and warnings for improving the performance here: 
-    - Uncaught Reference Error: google is not defined. Errors are within the places.js file at line 280 and 330!
+    - Uncaught Reference Error: google is not defined. Errors are within the places.js file at line 280 and 330! I have tried to make 
+    sure all variables are listed properly. I've also removed the function callback from the Google Maps API link, and researched 
+    the reference Error. For now, I've done everything I can to fix the issue with the knowledge I have. However, I aim to come back 
+    and fix this more thoroughly before the second release. From further testing, I have improved the performance score to 84/100. I'm 
+    happy with this result for now.
 
 **Accessibility**  
 

@@ -185,14 +185,16 @@ page of the project to ensure there were no syntax errors in the project:
   -
 - [W3 Markup Validator Results - Explore Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Fexplore.html)  
   -
-- [W3 Markup Validator Results - Join In Page]()  
+- [W3 Markup Validator Results - Join In Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Fjoin-in.html)  
   -
 
-- [W3C CSS Validator Results]()  
+- [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator)  
   -
 
-- [JShint Validator Results]()
-   -
+- [Esprima Javascript Validator](https://esprima.org/demo/validate.html)
+   - The results for main.js said the code is syntactically valid.
+   - The results for places.js said the code is syntactically valid.
+   - The results for sendEmail.js said the code is syntactically valid.
 
 ## Testing User Stories from the UX Section 
 

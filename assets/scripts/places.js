@@ -308,10 +308,8 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
             let prev_infowindow = infowindow;
 
 			// Adds Click Listener for generating infowindows
-			google.maps.event.addListener(marker, 'click', function () {
-                if (infowindow.open()) {
-				prev_infowindow.close(); // Close previously opened infowindow 
-                } 
+			google.maps.event.addListener(marker, 'click', function () {  
+				infowindow.close(); // Close previously opened infowindow 
 				this.infowindow.setContent(selectedLocations[i].content);
 				this.infowindow.open(map, marker);
 				// Sets the Street View to the marker clicked on 

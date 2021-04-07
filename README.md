@@ -183,7 +183,7 @@ page of the project to ensure there were no syntax errors in the project:
 
 - [W3 Markup Validator Results - Discover Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html)  
   -
-- [W3 Markup Validator Results - Explore Page]()  
+- [W3 Markup Validator Results - Explore Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Fexplore.html)  
   -
 - [W3 Markup Validator Results - Join In Page]()  
   -

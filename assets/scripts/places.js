@@ -309,7 +309,6 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 
 			// Adds Click Listener for generating infowindows
 			google.maps.event.addListener(marker, 'click', function () {
-                if (prev_infowindow) {
 				infowindow.close(); // Close previously opened infowindow 
 				infowindow.setContent(selectedLocations[i].content);
 				infowindow.open(map, marker);
@@ -317,7 +316,10 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				panorama.setPosition(selectedLocations[i].coords);
 				// Shows # TOUR section when marker is selected  
 				$('#the-tour').removeClass('d-none');
-                }git a
+                
+                if (prev_infowindow.open(map, marker)) {
+                    prev.infowindow.close();
+                }
 
                 prev_infowindow = infowindow;
                 infowindow.open(map, marker)

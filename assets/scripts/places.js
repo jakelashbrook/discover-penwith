@@ -305,8 +305,6 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				// Adds the content connected to the locations to the infowindows
 			});
 
-            let prev_infowindow = infowindow;
-
 			// Adds Click Listener for generating infowindows
 			google.maps.event.addListener(marker, 'click', function () {  
 				infowindow.close(); // Close previously opened infowindow 
@@ -315,9 +313,16 @@ function initMap(selectedLocations) { // Initializes the map with the selectedLo
 				// Sets the Street View to the marker clicked on 
 				this.panorama.setPosition(selectedLocations[i].coords);
 				// Shows # TOUR section when marker is selected  
-				$('#the-tour').removeClass('d-none');
-                
+				$('#the-tour').removeClass('d-none');   
 			});
+            
+           // Closes Open Info Windows
+           google.maps.event.addListener(infowindow, 'click', function() {
+               if (new marker, 'click') {
+                   infowindow.close();
+               }
+           });
+
 		}
 	}
 }

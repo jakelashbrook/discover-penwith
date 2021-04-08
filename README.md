@@ -138,69 +138,51 @@ Footer are available across all pages, and are identical in style and functional
 
 ## Frameworks, Libraries and Programs Used:
 
-1. [Bootstrap 4.5.2](https://getbootstrap.com/docs/4.0/getting-started/introduction/):
-    - Bootstrap was used to speedily build the layout of the website and to optimise the responsiveness of the
+1. [Bootstrap 4.5.2](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Bootstrap was used to speedily build the layout of the website and to optimise the responsiveness of the
     website across all devices.  
 
-2. [Google Fonts](https://fonts.google.com/):  
-   - The Google Fonts CDN is used to import styled typography to the site using the Open Sans Condensed, Lato and the
+2. [Google Fonts](https://fonts.google.com/):  The Google Fonts CDN is used to import styled typography to the site using the Open Sans Condensed, Lato and the
    Caveat fonts.
 
-3. [Font Awesome](https://fontawesome.com/):
-    - Font Awesome is used to add icons to some of the links used on the site to make them stand out more to users.
+3. [Font Awesome](https://fontawesome.com/): Font Awesome is used to add icons to some of the links used on the site to make them stand out more to users.
 
-4. [Git](https://git-scm.com/):
-    - Git is used for version control of the website.
+4. [Git](https://git-scm.com/): Git is used for version control of the website.
 
-5. [Gitpod](https://www.gitpod.io/):
-    - Gitpod was used as the Internet Development Environment for the final draft of the website.
+5. [Gitpod](https://www.gitpod.io/): Gitpod was used as the Internet Development Environment for the final draft of the website.
 
-6. [repl.it](https://repl.it/):
-    - Repl.it was used during the draft stages of the site creation as it's completely free to use which makes it
+6. [repl.it](https://repl.it/): Repl.it was used during the draft stages of the site creation as it's completely free to use which makes it
     brilliant to use when playing around with different ideas still.
 
-7. [Github](https://github.com/):
-    - Github is used to store the committed repositories from Git/Gitpod.  
+7. [Github](https://github.com/): Github is used to store the committed repositories from Git/Gitpod.  
 
-8. [Google Chrome](https://www.google.com/intl/en_uk/chrome/):
-    - Google Chrome was used throughout the Development period, with the Google Chrome Dev Tools 
+8. [Google Chrome](https://www.google.com/intl/en_uk/chrome/): Google Chrome was used throughout the Development period, with the Google Chrome Dev Tools 
     environment being crucial to assessing things that need fixing or changing before taking action.
 
-9. [EZGIF.com](https://ezgif.com/):
-    - ezgif.com has been used to convert some of the featured images from JPG to WEBP format so that they load faster, 
+9. [EZGIF.com](https://ezgif.com/): ezgif.com has been used to convert some of the featured images from JPG to WEBP format so that they load faster, 
     and the browser processes the website faster with smaller file sizes to load.  
 
-10. [Minify Code](http://minifycode.com/):  
-    - Minify Code has been used to minify the CSS file for optimised website loading, and also to beautify the HTML, CSS 
+10. [Minify Code](http://minifycode.com/):  Minify Code has been used to minify the CSS file for optimised website loading, and also to beautify the HTML, CSS 
     and Javascript code so that it's easier to read through.
 
-11. [Am I Responsive?](http://ami.responsivedesign.is/):  
-     - Used to provide the screenshot of Discover Penwith across multiple devices at the top of this README.md file.
+11. [Am I Responsive?](http://ami.responsivedesign.is/):  Used to provide the screenshot of Discover Penwith across multiple devices at the top of this README.md file.
 
-12. [Responsinator](http://www.responsinator.com/): 
-     - Used to check how responsive the site is across multiple device types.  
+12. [Responsinator](http://www.responsinator.com/): Used to check how responsive the site is across multiple device types.  
 
-13. [jQuery](https://jquery.com/):  
-     - jQuery is used to speed up the process of writing Javascript code, by offering a much simpler syntax enabling
+13. [jQuery](https://jquery.com/):  jQuery is used to speed up the process of writing Javascript code, by offering a much simpler syntax enabling
      the user to write Javascript based code much faster. A large part of the core functionality of the site comes
      from utilising jQuery. The Town Information sections are fully operated using jQuery code. 
 
-14. [Facebook](https://www.facebook.com/):    
-     - Facebook has been used to supply the images across this site, the majority from my personal profile and others
+14. [Facebook](https://www.facebook.com/):  Facebook has been used to supply the images across this site, the majority from my personal profile and others
      have been sourced from the local facebook group I participate in with consent from the owners.
 
-15. [FormsApp](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome):
-    - I decided to build in an ongoing survey for users to contribute their User Experience Stories to be used for future
+15. [FormsApp](https://surveyheart.com/form/606849767b70be36e2f9fc54#welcome): I decided to build in an ongoing survey for users to contribute their User Experience Stories to be used for future
     reviews and possible changes to the site based on the suggestions made.
 
-16. [Monzo Payment Links](https://monzo.me/jakelashbrook6):
-    - I also decided to add a donation button to the #SUPPORT section because I was intrigued with the monzo payment link technology.
+16. [Monzo Payment Links](https://monzo.me/jakelashbrook6): I also decided to add a donation button to the #SUPPORT section because I was intrigued with the monzo payment link technology.
     This is an area I will likely build on in the future development of the app by incorporating Stripe and/or Paypal into the design.
-17. [EmailJS API](https://www.emailjs.com/):
-    - The EmailJS API is used to power the #JOIN IN form so that a specific email address can receive what's input by the website form 
+17. [EmailJS API](https://www.emailjs.com/): The EmailJS API is used to power the #JOIN IN form so that a specific email address can receive what's input by the website form 
     users.
-18. [Google Maps/Places API](https://developers.google.com/maps/documentation/javascript/overview):
-    - The Google Maps/Places API was used to create a map with chosen markers, information and a street view of each selected
+18. [Google Maps/Places API](https://developers.google.com/maps/documentation/javascript/overview): The Google Maps/Places API was used to create a map with chosen markers, information and a street view of each selected
     location.
 
 # Testing 
@@ -363,18 +345,19 @@ around 54/100. Lighthouse lists the following suggestions and warnings for impro
 
 **Accessibility**  
 
-This is the highest possible score that can be achieved for this category of testing- so I'm sufficiently happy with this area of testing.
+This is the highest possible score that can be achieved for this category of testing- so I'm sufficiently happy with this area of testing
+for all 3 pages on the website.
 
 **Best Practices**  
 
-This is a very high score for Best Practices, so i'm extremely happy with this. However, lets have a look at what could be improved: 
+This was a very high score for Best Practices across all pages, so i'm extremely happy with this. However, lets have a look at what could be improved: 
 - Links to cross-origin destinations are unsafe. 
     - So this is a pretty easy fix, to improve the security of the site I just need to make sure the all exterior links are using the
     'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities. This has been added to all links 
     with an external source.
 
 **SEO Score**  
-Again, this a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:
+Again, this was a very high score that I'm extremely happy with- however let's take a look at what we can do to improve it:
 - Document does not have META description.  
     - This is an easy fix, it just needs each page to have a meta description added. For more information on this,
     [click here](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools). Meta descriptions added to pages.
@@ -384,10 +367,14 @@ Again, this a very high score that I'm extremely happy with- however let's take 
     to help improve the overall SEO score where possible for this site. The website passed the Structured Data Testing Tool with 
     no warnings or errors. The same results were given from the Structured Data Linter.
   
+# Release Planning 
+Most of the future release planning of the website will be based on the interactions and suggestions that users supply via the contact form 
+or the survey. However, I already know that the second release will feature more destinations adding to the #EXPLORE map. I also aim 
+to have self-closing infowindows fixed for the second release and address any other issues that are found that weren't come across 
+before the first release. Eventually I would like locals and businesses to be able to interact with each other via the site and be able to add content directly 
+to the map themselves. I would also consider Stripe integration at a later stage if there was a justification for it going forward.
 
-
-
-
+I do not expect to have the time to work on a second release until I have finished my current study programme with Code Institute.
 # Deployment 
 
 ## GitHub Pages  

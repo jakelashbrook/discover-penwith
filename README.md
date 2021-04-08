@@ -78,13 +78,13 @@ I decided to sketch my wireframes by hand because I'm much more confident with d
 my eyes some extra screen free time to recover and recoup slightly. You can find links to my original wireframes below:
 
 - **The Discover Penwith Desktop Wireframes:**
-[PDF of Desktop Wireframes](/pdf/discover-penwith-wireframes.pdf)  
+[PDF of Desktop Wireframes](/workspace/discover-penwith/pdf/discover-desktop-wireframes.pdf)  
 
   Please see the attached PDF for a written summary of the desktop wireframes for this project along with images of the original
   sketches.  
 
 - **The Mobile Wireframe:** 
-[PDF of Mobile Wireframe](/pdf/mobile-wireframe.pdf)
+[PDF of Mobile Wireframe](/workspace/discover-penwith/pdf/mobile-wireframe.pdf)
 
   Please see the attached PDF for a written summary and image of the sketched wireframe.  
 
@@ -460,7 +460,7 @@ all written information on the info windows is typed myself. You can view the PD
 
 ## Media
 The only external media files used are the ones within the Info Windows generated on the map when a marker is selected. You can 
-find a list of the external links used [here](/pdf/info-window-planning.pdf). Some other images from external sources have been used
+find a list of the external links used [here](/workspace/discover-penwith/pdf/info-window-planning.pdf). Some other images from external sources have been used
 with consent for this specific project.
 
 ## Acknowledgements 

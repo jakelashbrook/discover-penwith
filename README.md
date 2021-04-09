@@ -60,17 +60,17 @@ CSS text shadowing effect using the same colours from the websites designated Co
 
 - **Colour Scheme:**  
 For the colour scheme I decided to use the colours of the Cornish Flag and the ceromonial colours. The main colours
-being black and white- reflecting the flag. And then a sandy/yellow colour for hover effects/links to add a 
+being black (the generic black keyword in CSS), #edd587 (a sandy shade of yellow/brown) and #fafafa (white off shade)- reflecting the flag. And then a sandy/yellow colour for hover effects/links to add a 
 distinctive finish to the site.
 
 - **Images:**  
 All the images used on the site are either taken by myself, my partner or our local community facebook group with
-the permission of the owners for use in this project. There are a lot of images being used on this because when it 
+the permission of the owners for use in this project. There are a lot of images being used on this project because when it 
 comes to travel a picture really does "speak a thousand words".
 
 - **Site Appearance:**
 There is a clear and crisp repetition of colours and structured layout throughout the site so that Users are quickly and 
-intuitively used to the sites design.
+intuitively used to the websites design.
 
 ## Wireframes  
 

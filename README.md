@@ -14,7 +14,7 @@ Due to my history working within the Hospitality sector, I naturally gravitate t
 sector because I guess it's become a comfort zone area for me. At first I had decided to create a restaurant/cafe 
 website for my employers- and I did! Got to a point of completion- and decided it wasn't enough, it didn't fit with
 what I wanted to create for my assessment criteria. So I went back to the drawing board and debated what was pheasable
-and what kind of API's I wanted to use. I was actually surfing a facebook group I'm apart of when the idea for 'Discover
+and what kind of API's I wanted to use. I was actually surfing a facebook group I'm a part of when the idea for 'Discover
 Penwith' dawned on me. 
 
 Cornwall has become one of the most popular tourist destinations in the UK, even more so since Staycationing became the
@@ -104,13 +104,13 @@ Footer are available across all pages, and are identical in style and functional
     better ideas forming from further research whilst looking into the Google Development Documentation. Originally, I was going 
     to have button groups for each of the three main towns (St Ives, Hayle and Penzance), and then have 3 categories that would 
     show up after the town buttons are clicked, and then upon clicking one of the 3 categories- markers are dropped on the map 
-    within the area of that town. However, after further analysis- i realised that given the site is about the Penwith area as a 
+    within the area of that town. However, after further analysis- I realised that given the site is about the Penwith area as a 
     whole, it would be much more productive to have 3 categories of markers that covered the whole of the Penwith Area. 
 
-    Also, within the original wireframe i planned to have the infowindow content appear below the map once a marker had been clicked on,
-    but through the design process i decided i wanted to have a 'Virtual Tour' option for the destinations. This was largely inspired 
+    Also, within the original wireframe I planned to have the infowindow content appear below the map once a marker had been clicked on,
+    but through the design process I decided I wanted to have a 'Virtual Tour' option for the destinations. This was largely inspired 
     by the lockdowns we've all been experiencing. I thought it would be a nice feature for people to explore and plan trips from the 
-    comfort of their homes. To do this, i attached the Street View div to the infowindows/markers so that they could take the tour 
+    comfort of their homes. To do this, I attached the Street View div to the infowindows/markers so that they could take the tour 
     below the map and get any necessary information from the infowindows on the map at the same time. 
 
     I also removed the #GET INVOLVED section. Users can use the CTA button in the hero image area to jump to the #JOIN IN page.
@@ -121,7 +121,7 @@ Footer are available across all pages, and are identical in style and functional
     first release the form does not allow users to upload documents or media files- this is something that will be added at a later 
     date due to not currently having the available time to process such requests from Users regarding content updates or changes.
 
-    The # NEWSLETTER area has also been scrapped. This is something that was deemed ineffective as their is currently no extra content 
+    The # NEWSLETTER area has also been scrapped. This is something that was deemed ineffective as there is currently no extra content 
     or news to offer to users. This may be incorporated at a later date if it becomes relevant. Instead, I have a #FEEDBACK section 
     so that users can easily give their thoughts and opinions and help to improve the website by taking part in a survey produced 
     specifically for this purpose. 
@@ -275,7 +275,9 @@ for the 'Discover' homepage.
     - Issue Fix - removed the type attribute from the index.html page. [Issue Fixed](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html).
  - ii. Error listed for the function saying 'Attribute function not allowed at this point of the a element'. 
     - Issue Fix - First attempt, moving the function call to the start of the attribute list. This makes no difference whatsoever, so then 
-    I tired to change the function attribute to the onclick attribute. This [fixed the issue](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html).
+    I tried to change the function attribute to the onclick attribute. This [fixed the issue](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdiscover-penwith%2Findex.html).
+ - iii. I tried to change the pictures in the Town Information Area and the Top5 to amp-img tags to improve performance, however this 
+   was not a real fix, so i decided to change the images back to the img tag. I will review this again in the future.
 3. Checked to see all images are loaded correctly- No issues found.
 4. Checked all buttons are functioning correctly- No issues found.
 5. HTML sections need to be distinguished for SEO- Section and Main tags added to index.html.
@@ -285,8 +287,8 @@ for the 'Discover' homepage.
 2. The map has been tested and is working but with 2 slight glitches:
  - i. The map doesn't automatically load until one of the buttons that generates the different markers on the map is clicked.  
     - Upon first inspection of the code for the map, I have noticed that I have not added the polyfill CDN link for the map, so my 
-    first resolution attempt will be to add this back into the code. This did not appear to change anything! So then i checked the
-    link and realised i had removed the callback for the initMap function, this has now been replaced and the map is loading again 
+    first resolution attempt will be to add this back into the code. This did not appear to change anything! So then I checked the
+    link and realised I had removed the callback for the initMap function, this has now been replaced and the map is loading again 
     with the rest of the page content.
  - ii. The info windows generate on the map as expected, however when a new info-window is clicked the previous one does not close
  as was expected. This is a problem within the codebase that needs to be carefully fixed to enhance the overall User Experience.
@@ -324,7 +326,7 @@ used so far.
 **Performance**  
 Suggestions to improve the performance:  
 - Eliminate render blocking resources. 
-    - So this means I need to make sure i defer any resources being called on before the first paint of the website, aswell as remove 
+    - So this means I need to make sure I defer any resources being called on before the first paint of the website, aswell as remove 
     any unneccesary external links, resources or frameworks. The only option I have here is to check all links that can be deferred 
     until the page has been loaded have been.  All available links have been deffered.
 - Serve static assets with an efficient cache policy. 
@@ -350,7 +352,7 @@ for all 3 pages on the website.
 
 **Best Practices**  
 
-This was a very high score for Best Practices across all pages, so i'm extremely happy with this. However, lets have a look at what could be improved: 
+This was a very high score for Best Practices across all pages, so I'm extremely happy with this. However, lets have a look at what could be improved: 
 - Links to cross-origin destinations are unsafe. 
     - So this is a pretty easy fix, to improve the security of the site I just need to make sure the all exterior links are using the
     'rel:noopener' or 'rel:noreferrer' to improve performance and prevent security vulnerabilities. This has been added to all links 
@@ -433,7 +435,7 @@ the website.
 - [W3C Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top):
 This guide to make a 'Back to the top' button was used build my back to the top button.
 
-- [Code Institute](https://codeinstitute.net/): For all the lessons i've learnt so far to enable me to code to this level.
+- [Code Institute](https://codeinstitute.net/): For all the lessons I've learnt so far to enable me to code to this level.
 
 - [Google Developer Docs](https://developers.google.com/maps/documentation/javascript/overview): All of the Google API Documentation 
 for helping me learn to use the API's and create ideas for better concepts within my app by also including a street view of my markers
@@ -441,7 +443,7 @@ which wasn't part of my original plan for the site.
 
 ## Content 
 Most of the pictures and written content are my own. However, some photographs are provided from friends and family members. All of the 
-towns information on the homepage is from Wikipedia. All of the photos used within the Info Windows on the map are externally sourced, 
+towns information on the homepage is from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page). All of the photos used within the Info Windows on the map are externally sourced, 
 all written information on the info windows is typed myself. You can view the PDF document I made whilst planning the Info Window content
 [here](/pdf/info-window-planning.pdf) to see a library of the written content and external image links used.
 
